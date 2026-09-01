@@ -1,0 +1,6 @@
+{
+  "name": "Start Up Unisex Salon",
+  "description": "Premium unisex salon in Rajarhat Shibtola, Kolkata offering luxury hair styling, hair spa, skin treatments, beard sculpting, bridal makeovers, and instant appointment booking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: "Playfair Display", "Times New Roman", Georgia, serif;
+    --font-cinzel: "Cinzel", Georgia, serif;
+    --font-cormorant: "Cormorant Garamond", Georgia, serif;
+    --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.font-cinzel {
+  font-family: var(--font-cinzel);
+}
+
+.font-cormorant {
+  font-family: var(--font-cormorant);
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #14110f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3a2e24;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cba158;
+}
+
+/* Gold gradient highlights */
+.gold-text-glow {
+  text-shadow: 0 0 20px rgba(203, 161, 88, 0.25);
+}
+
+.gold-box-glow {
+  box-shadow: 0 10px 30px -10px rgba(203, 161, 88, 0.2);
+}
+
+.gold-card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.gold-card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 35px -8px rgba(203, 161, 88, 0.25);
+}
